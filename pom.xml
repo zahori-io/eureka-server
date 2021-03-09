@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.zahori</groupId>
     <artifactId>eureka-server</artifactId>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.1</version>
 
     <name>eureka-server</name>
     <description>Eureka server for service registration and service discovery for Zahori.io</description>
@@ -38,7 +37,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.2</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <properties>
@@ -53,7 +52,7 @@
         <connection>scm:git:git://github.com/zahori-io/${project.artifactId}.git</connection>
         <developerConnection>scm:git:git@github.com:zahori-io/${project.artifactId}.git</developerConnection>
         <url>https://github.com/zahori-io/${project.artifactId}.git</url>
-        <tag>v0.1.0</tag>
+        <tag>v0.1.1</tag>
     </scm>
 
     <distributionManagement>
@@ -289,7 +288,7 @@
                                 <id>enforce</id>
                                 <configuration>
                                     <rules>
-                                        <DependencyConvergence/>
+                                        <DependencyConvergence />
                                         <requireMavenVersion>
                                             <version>3.6.3</version>
                                         </requireMavenVersion>
