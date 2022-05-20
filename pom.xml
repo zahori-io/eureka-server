@@ -37,7 +37,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.2</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 
 	<properties>
@@ -50,7 +50,7 @@
 		<sonar.projectKey>zahori-io_eureka-server</sonar.projectKey>
 		<sonar.organization>zahoriio</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<spring-boot.version>2.6.2</spring-boot.version>
+		<spring-boot.version>2.6.8</spring-boot.version>
 		<start-class>io.zahori.eurekaserver.EurekaServer</start-class>
 		<jersey-core.version>1.19.4</jersey-core.version>
 		<jackson.version>2.13.1</jackson.version>
@@ -344,7 +344,7 @@
 								<id>enforce</id>
 								<configuration>
 									<rules>
-										<DependencyConvergence />
+										<DependencyConvergence/>
 										<requireMavenVersion>
 											<version>3.6.3</version>
 										</requireMavenVersion>
