@@ -53,7 +53,7 @@
 		<spring-boot.version>2.7.5</spring-boot.version>
 		<start-class>io.zahori.eurekaserver.EurekaServer</start-class>
 		<jersey-core.version>1.19.4</jersey-core.version>
-		<jackson.version>2.14.0</jackson.version>
+		<jackson.version>2.18.0</jackson.version>
 	</properties>
 
 	<scm>
